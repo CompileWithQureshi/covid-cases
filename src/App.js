@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card';
 import { Logo } from './component/logo';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
+import { motion } from "framer-motion";
+
 
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
     <div className="App">
       <Logo />
       <header className="App-header">
-        <div className='container'>
+        <motion.div whileHover={{ scale: 1.2 }} className='container'>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title className='title'> <h1>Our</h1></Card.Title>
@@ -38,8 +40,8 @@ function App() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
-        <div className='container'>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.2 }} className='container'>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title className='title'><h1>Total</h1></Card.Title>
@@ -49,8 +51,8 @@ function App() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
-        <div className='container'>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.2 }} className='container'>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title className='title'><h1>Total</h1></Card.Title>
@@ -60,8 +62,8 @@ function App() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
-        <div className='container'>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.2 }} className='container'>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title className='title'><h1>Total</h1></Card.Title>
@@ -71,8 +73,8 @@ function App() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
-        <div className='container'>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.2 }} className='container'>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title className='title'><h1>Total</h1></Card.Title>
@@ -82,8 +84,8 @@ function App() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
-        <div className='container'>
+        </motion.div>
+        <motion.div whileHover={{ scale: 1.2 }} className='container'>
           <Card style={{ width: '18rem' }}>
             <Card.Body>
               <Card.Title className='title'><h1>Last</h1></Card.Title>
@@ -93,7 +95,7 @@ function App() {
               </Card.Text>
             </Card.Body>
           </Card>
-        </div>
+        </motion.div>
 
 
       </header>

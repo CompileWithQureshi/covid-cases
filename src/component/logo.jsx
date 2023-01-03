@@ -10,7 +10,8 @@ export const Logo = () => {
         className="logo-animate"
         animate={{ rotate: rotate ? 0 : 360 }}
         transition={{ type: "tween", duration: 3 }}
-        whileDrag={{ x: 50, y: 50 }}
+        whileHover={{ scale: 1.2 }}
+        // whileDrag={{ x: 50, y: 50 }}
         onClick={() => setRotate(!rotate)}
       >
         {/* <h5 className="logo-name">Covid 19</h5> */}
