@@ -14,7 +14,7 @@ export const Logo = () => {
         onClick={() => setRotate(!rotate)}
       >
         {/* <h5 className="logo-name">Covid 19</h5> */}
-        Covid 19
+        <span>Covid 19</span>
       </motion.div>
     </div>
   );
